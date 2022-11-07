@@ -20,7 +20,7 @@ struct FavouriteThingsListView: View {
             NavigationLink(destination:{
                CinamonRolls()
             }, label: {
-                Text("catmeme")
+                Text("cinamon rolls")
             })
             
             NavigationLink(destination:{
@@ -31,21 +31,21 @@ struct FavouriteThingsListView: View {
             NavigationLink(destination:{
                 simon()
             }, label: {
-                Text("My cat simon")
+                Text("simon")
             })
             
             NavigationLink(destination:{
                sunsets()
             }, label: {
-                Text("Coding")
+                Text("sunsets")
             })
             
             NavigationLink(destination:{
                 favthing4()
             }, label: {
-                Text("Lakefield")
+                Text("")
             })
-            .navigationTitle("FavouriteThings")
+            .navigationTitle("watermelon")
         }
         
         

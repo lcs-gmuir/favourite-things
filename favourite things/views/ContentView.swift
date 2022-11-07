@@ -16,12 +16,16 @@ struct ContentView: View {
             Text("put writing here")
           
                  Spacer()
+                .padding()
         }
         .navigationTitle("f40")
     }
     
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
+  
+}
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationView {
             ContentView()
         }
     }
