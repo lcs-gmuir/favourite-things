@@ -13,10 +13,11 @@ struct ContentView: View {
             Image("f40")
                 .resizable()
                 .scaledToFit()
+           
+            
             Text("put writing here")
           
-                 Spacer()
-                .padding()
+            
         }
         .navigationTitle("f40")
     }

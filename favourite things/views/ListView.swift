@@ -18,7 +18,7 @@ struct FavouriteThingsListView: View {
             })
             
             NavigationLink(destination:{
-               CinamonRolls()
+                CinamonRolls()
             }, label: {
                 Text("cinamon rolls")
             })
@@ -35,7 +35,7 @@ struct FavouriteThingsListView: View {
             })
             
             NavigationLink(destination:{
-               sunsets()
+                sunsets()
             }, label: {
                 Text("sunsets")
             })
@@ -43,18 +43,18 @@ struct FavouriteThingsListView: View {
             NavigationLink(destination:{
                 favthing4()
             }, label: {
-                Text("")
+                Text("watermelon")
             })
             .navigationTitle("watermelon")
         }
         
         
     }
-}
-struct FavouriteThingsListView_Previews: PreviewProvider {
-    static var previews: some View {
-        FavouriteThingsListView()
+    
+    struct FavouriteThingsListView_Previews: PreviewProvider {
+        static var previews: some View {
+            FavouriteThingsListView()
+        }
     }
 }
-
 

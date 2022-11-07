@@ -9,34 +9,26 @@ import SwiftUI
  
 struct CinamonRolls: View {
     var body: some View {
-        NavigationView {
             VStack{
                 Image("cinamon")
                     .resizable()
                     .scaledToFit()
-                    .overlay {
-                        Rectangle().stroke(.black, lineWidth: 5)
-                        
-                        
-                            .shadow(radius: 7)
-                    }
                 
-                Text("i love crinamon buns")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundColor(.white)
-                    .multilineTextAlignment(.center)
-                    .background(Color.black)
-                    .padding(.top, 640.0)
-              
-                     Spacer()
+                Text("put writing here")
+            }
+            
+            
+            .navigationTitle("cinamon Rolls")
+        }
+        
+        struct ContentView_Previews: PreviewProvider {
+            static var previews: some View {
+                NavigationView{
+                    CinamonRolls()
+                }
             }
         }
-        .navigationTitle("listView")    }
-    
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            CinamonRolls()
-        }
     }
-}
+
+
+ 
