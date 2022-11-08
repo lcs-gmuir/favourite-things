@@ -6,8 +6,8 @@
 //
 
 import SwiftUI
- 
-struct stussy: View {
+
+struct Stussy: View {
     var body: some View {
         VStack{
             Image("FFCA995E3F69C07925C3169C9D7831F4D70D5E8AB1433358F5E9AE52127C7C0E_sk_12_cid_1")
@@ -17,16 +17,18 @@ struct stussy: View {
             
             
             
-            Text("put writing here")
+            Text("It was written in 1962, with music by Antônio Carlos Jobim and Portuguese lyrics by Vinícius de Moraes. English lyrics were written later by Norman Gimbel. The first commercial recording was in 1962, by Pery Ribeiro. The Stan Getz recording featuring the vocal debut of Astrud Gilberto became an international hit.")
         }
-        .navigationTitle("stussy")
+        .navigationTitle("music")
     }
     
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            NavigationView{
-                stussy()
-            }
+}
+
+struct Stussy_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationView{
+            Stussy()
         }
     }
 }
+
